@@ -2,7 +2,7 @@
 
 **Sprout-AE** is a hardware synth module designed for the **AE Modular** format, based on the **Electrosmith Daisy Seed** embedded DSP platform.
 
-> 🌱 A **Sprout** module is planted in a rack and grows into a functional instrument through a firmware **Shoot**.
+> 🌱 A **Sprout**™ module is planted in a rack and grows into a functional instrument through a firmware **Shoot**.
 
 ## 🌟 Features
 - Built for the [AE Modular format](https://wiki.aemodular.com/#/diy/aemodular-technical-guide.md)
