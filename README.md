@@ -17,7 +17,7 @@ Enter the Arc lineup. Arcs are modules that are daisy-chained from a Spark and i
 This project is open hardware under the [CERN-OHL-S](https://gitlab.com/ohwr/project/cernohl/-/wikis/uploads/b236492596cfc91c12def7d50bbf7da0/cern_ohl_s_v2.pdf) license.
 
 ## Naming your Project(s)
-"clectric Spark" and "clectric <anything> Spark" are trademarked. Please do not use the words "clectric" or "electric" in the name of any of the works you create from these files.
+"clectric Spark" and "clectric _anything_ Arc" are trademarked. Please do not use the words "clectric" or "electric" in the name of any of the works you create from these files.
 
 However, you may, and are encouraged to, use "Spark" and "Arc" in your own project's name. Such as: "yourcompany Spark" or "yourcompany Fader Arc".
 
