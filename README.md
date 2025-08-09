@@ -4,9 +4,14 @@
 
 ## Features
 - Built for the [AE Modular format](https://wiki.aemodular.com/#/diy/aemodular-technical-guide.md)
-- Supports firmware from the [Flux](https://github.com/clectric-diy/FLUX) collection
+- Supports firmware from the [FLUX](https://github.com/clectric-diy/FLUX) collection
 - Open hardware: schematics, PCB, and faceplate files included
 - Designed for experimentation and community hacking
+
+## Arcs
+A major challenge of creating a "flash it to do anything" module is that it is difficult to expose all of the pins from the platform chip. You have to make compromises based on space, desired use, physical controls, etc. A single module simply cannot do it all.
+
+Enter the Arc lineup. Arcs are modules that are daisy-chained from a Spark and introduce new capabilities. It may have additional I/O, faders, pots, sensors, etc.
 
 ## License
 This project is open hardware under the [CERN-OHL-S](https://gitlab.com/ohwr/project/cernohl/-/wikis/uploads/b236492596cfc91c12def7d50bbf7da0/cern_ohl_s_v2.pdf) license.
