@@ -5,6 +5,7 @@
 ## Features
 - Built for the [AE Modular format](https://wiki.aemodular.com/#/diy/aemodular-technical-guide.md)
 - Supports firmware from the [FLUX](https://github.com/clectric-diy/FLUX) collection
+- Based on the [Daisy Seed](https://daisy.audio/hardware/Seed) embedded DSP platform
 - Open hardware: schematics, PCB, and faceplate files included
 - Designed for experimentation and community hacking
 
