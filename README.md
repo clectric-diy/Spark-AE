@@ -1,6 +1,6 @@
 # Spark-AE
 
-**Spark-AE** is a synth module designed for the **AE Modular** format. It is ased on the **Daisy Seed** embedded DSP platform.
+**Spark-AE** is a synth module designed for the **AE Modular** format. It is based on the **Daisy Seed** embedded DSP platform.
 
 ## Features
 - Built for the [AE Modular format](https://wiki.aemodular.com/#/diy/aemodular-technical-guide.md)
