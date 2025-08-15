@@ -9,7 +9,7 @@ If you have any questions or ideas, please use the "Spark-AE Q&A" discussion thr
 Please note that by contributing to this repository, you agree that your contributions will be licensed under the same license as this project. Be sure to review the LICENSE file to understand the terms.
 
 ## Naming Your Own "Spark"
-If you're creating your own product inspired by Spark-AE and wish to name it "Spark," we encourage you to do so! However, please ensure your product name is unique enough to avoid confusion with this project. This will help maintain clarity and avoid overlap within the community.
+If you're creating your own product inspired by Spark-AE and wish to name it "Spark," we encourage you to do so! However, please do not use "clectric", "electric", or "clectric Spark" in the name of your product ensure your product name is unique enough to avoid confusion with this project. This will help maintain clarity and avoid overlap within the community.
 
 ## Attribution
 This file was drafted by the GitHub Copilot Chat Assistant and is currently awaiting review and edits by the repository owner (@chleggett).
