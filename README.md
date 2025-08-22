@@ -8,7 +8,7 @@
 - Supports firmware from the [FLUX](https://github.com/clectric-diy/FLUX) collection
 - Based on the [Daisy Seed](https://daisy.audio/hardware/Seed) embedded DSP platform
 - Fully compatable with firmare written for the [Daisy Pod](https://daisy.audio/product/Daisy-Pod/)
-- Open hardware: schematics, PCB, and faceplate files included
+- Open hardware: schematics, PCB, and front panel files included
 - Expandable with physical "Arc" modules. See below.
 - Vertically symetrical so that front panels can be flipped over to have an alternate design.
 
