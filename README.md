@@ -2,12 +2,22 @@
 
 **Spark-AE** is a synth module designed for the **AE Modular** format. It is based on the **Daisy Seed** embedded DSP platform.
 
-## Features
+## Design Goals
+- Designed for experimentation and community hacking
 - Built for the [AE Modular format](https://wiki.aemodular.com/#/diy/aemodular-technical-guide.md)
 - Supports firmware from the [FLUX](https://github.com/clectric-diy/FLUX) collection
 - Based on the [Daisy Seed](https://daisy.audio/hardware/Seed) embedded DSP platform
+- Fully compatable with firmare written for the [Daisy Pod](https://daisy.audio/product/Daisy-Pod/)
 - Open hardware: schematics, PCB, and faceplate files included
-- Designed for experimentation and community hacking
+- Expandable with physical "Arc" modules. See below.
+- Vertically symetrical so that front panels can be flipped over to have an alternate design.
+
+
+## 1st Sketch
+
+Here is the first sketch that I (chleggett) made of the Spark-AE
+
+![rough sketch of the module with some written design goals from the list above.](docs/Spark-AE-1st-Sketch.png)
 
 ## Arcs
 A major challenge of creating a "flash it to do anything" module is that it is difficult to expose all of the pins from the platform chip. You have to make compromises based on space, desired use, physical controls, etc. A single module simply cannot do it all.
