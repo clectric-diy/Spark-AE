@@ -13,7 +13,7 @@
 - Vertically symetrical so that front panels can be flipped over to have an alternate design.
 
 
-## 1st Sketch
+## First Sketch
 
 Here is the first sketch that I (chleggett) made of the Spark-AE
 
