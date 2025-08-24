@@ -33,3 +33,4 @@ You are free to sell your own variations, but remember that this module is open 
 
 
 We have other hardware, such as [AE Modular Protoboards](https://github.com/clectric-diy/Protoboards-AE), that are licensed under the [CERN-OHL-W](https://gitlab.com/ohwr/project/cernohl/-/wikis/uploads/82b567f43ce515395f7ddbfbad7a8806/cern_ohl_w_v2.txt) "weakly reciprocal" variant. You can use those, under the terms of that variant, as components in your own projects.
+
