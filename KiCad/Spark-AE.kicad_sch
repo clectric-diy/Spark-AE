@@ -2,8 +2,14 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 3edf45fb-9cc6-4079-8dcc-c280276ec612)
+	(uuid "3edf45fb-9cc6-4079-8dcc-c280276ec612")
 	(paper "A4")
+	(title_block
+		(title "Spark-AE")
+		(date "2026-01-14")
+		(company "Copyright © 2026 clectric.diy Licensed under CERN-OHL-S v2")
+		(comment 1 "Charles H. Leggett")
+	)
 	(lib_symbols)
 	(sheet_instances
 		(path "/"

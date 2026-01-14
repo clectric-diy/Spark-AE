@@ -21,14 +21,14 @@
 		(2 "B.Cu" signal "Back")
 		(13 "F.Paste" user)
 		(15 "B.Paste" user)
-		(5 "F.SilkS" user)
-		(7 "B.SilkS" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
 		(1 "F.Mask" user)
 		(3 "B.Mask" user)
 		(25 "Edge.Cuts" user)
 		(27 "Margin" user)
-		(31 "F.CrtYd" user)
-		(29 "B.CrtYd" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
 		(35 "F.Fab" user)
 	)
 	(setup
@@ -142,13 +142,13 @@
 	(footprint "clectric-diy:AE_2U_PANEL"
 		(layer "F.Cu")
 		(uuid "f619d6b8-fbab-4df1-adce-e3236e004e24")
-		(at 84.5875 151.5125)
+		(at 84.5875 151.4125)
 		(property "Reference" "REF**"
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f6ff1c9a-23e2-4a8d-b4e2-ed3e6ee6b988")
+			(uuid "f90e0de6-a381-4c1a-b133-4aeeb9f8e937")
 			(effects
 				(font
 					(size 1 1)
@@ -161,7 +161,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "09aa67b5-b95b-432c-a717-0ceabd9710ca")
+			(uuid "8dc48cd3-13f3-493d-ac19-e493a5f2b8da")
 			(effects
 				(font
 					(size 1 1)
@@ -174,7 +174,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b5692821-5d77-4c6d-9513-3172d13b7796")
+			(uuid "0d20bdf7-522a-4565-960f-a1a84ef5ea5c")
 			(effects
 				(font
 					(size 1 1)
@@ -187,7 +187,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1c60e8e9-6d4b-42da-a92f-f1be8ff51408")
+			(uuid "fa4f3849-d115-4b5b-b1e2-af953a06a910")
 			(effects
 				(font
 					(size 1 1)
@@ -262,19 +262,8 @@
 		(embedded_fonts no)
 	)
 	(gr_circle
-		(center 101.225 118.275)
-		(end 103.225 118.275)
-		(stroke
-			(width 0.0381)
-			(type solid)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "107dfc05-5d9c-4b52-ae93-4c4989ac0309")
-	)
-	(gr_circle
-		(center 115.5875 126.2925)
-		(end 121.5875 126.2925)
+		(center 115.5875 119.0525)
+		(end 118.5875 119.0525)
 		(stroke
 			(width 0.0381)
 			(type solid)
@@ -282,17 +271,6 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "30f8df87-a1f7-46b9-98fe-035d254694ee")
-	)
-	(gr_circle
-		(center 130.225 118.275)
-		(end 132.225 118.275)
-		(stroke
-			(width 0.0381)
-			(type solid)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "65142baa-0012-4ac3-84b8-cc2549c80d3a")
 	)
 	(gr_rect
 		(start 132.675 55.925)
@@ -306,8 +284,8 @@
 		(uuid "95c0ef3f-30d7-42a2-a581-9b974d0f195a")
 	)
 	(gr_circle
-		(center 130.225 105.275)
-		(end 132.225 105.275)
+		(center 122.0875 132.8125)
+		(end 124.0875 132.8125)
 		(stroke
 			(width 0.0381)
 			(type solid)
@@ -317,8 +295,8 @@
 		(uuid "bc85fd9a-2dc7-48e5-9c8d-aea13b2ea052")
 	)
 	(gr_circle
-		(center 115.5875 95.8125)
-		(end 121.5875 95.8125)
+		(center 115.5875 88.5725)
+		(end 118.5875 88.5725)
 		(stroke
 			(width 0.0381)
 			(type solid)
@@ -339,8 +317,8 @@
 		(uuid "d7aee815-0a29-4863-9b33-13d129cee775")
 	)
 	(gr_rect
-		(start 98.375 55.925)
-		(end 94.575 76.925)
+		(start 94.575 55.925)
+		(end 98.375 76.925)
 		(stroke
 			(width 0.0381)
 			(type solid)
@@ -350,8 +328,8 @@
 		(uuid "dbe598c2-4632-4795-be37-49bd4ada2bee")
 	)
 	(gr_circle
-		(center 101.225 105.275)
-		(end 103.225 105.275)
+		(center 109.0875 132.8125)
+		(end 111.0875 132.8125)
 		(stroke
 			(width 0.0381)
 			(type solid)
@@ -361,8 +339,8 @@
 		(uuid "e1319850-e188-4a0f-aeae-5becc3f31631")
 	)
 	(gr_circle
-		(center 115.5875 111.0525)
-		(end 121.5875 111.0525)
+		(center 115.5875 103.8125)
+		(end 118.5875 103.8125)
 		(stroke
 			(width 0.0381)
 			(type solid)
@@ -383,7 +361,7 @@
 		(uuid "feddcf62-939f-4754-9ba7-aee8ff9ffdd5")
 	)
 	(gr_text "POT2"
-		(at 115.475 118.525 0)
+		(at 115.475 111.285 0)
 		(layer "F.SilkS")
 		(uuid "3e7d8bae-4a24-4759-a8a0-d1f29291c46c")
 		(effects
@@ -405,7 +383,7 @@
 		)
 	)
 	(gr_text "SW2"
-		(at 130.225 109.275 0)
+		(at 122.0875 136.8125 0)
 		(layer "F.SilkS")
 		(uuid "6d0a3104-8483-4dae-b45d-bf11ce57599a")
 		(effects
@@ -415,19 +393,8 @@
 			)
 		)
 	)
-	(gr_text "LED1"
-		(at 101.225 122.275 0)
-		(layer "F.SilkS")
-		(uuid "73417f26-f35c-4e41-bfa8-d11fc95d58fd")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.125)
-			)
-		)
-	)
 	(gr_text "POT1"
-		(at 115.475 103.525 0)
+		(at 115.475 96.285 0)
 		(layer "F.SilkS")
 		(uuid "796d6d3f-7bf0-4afc-a6ba-773a705f6e27")
 		(effects
@@ -449,7 +416,7 @@
 		)
 	)
 	(gr_text "ENC"
-		(at 115.475 133.525 0)
+		(at 115.475 126.285 0)
 		(layer "F.SilkS")
 		(uuid "9e3886ec-699a-4709-895a-0b800ce282a8")
 		(effects
@@ -459,19 +426,8 @@
 			)
 		)
 	)
-	(gr_text "LED2"
-		(at 130.225 122.275 0)
-		(layer "F.SilkS")
-		(uuid "d09174a8-bf1d-4829-83c1-5999c03ae60b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.125)
-			)
-		)
-	)
 	(gr_text "SW1"
-		(at 101.225 109.275 0)
+		(at 109.0875 136.8125 0)
 		(layer "F.SilkS")
 		(uuid "e7300c64-82ab-4c78-975c-5fd518bbfe55")
 		(effects
@@ -537,36 +493,16 @@
 		)
 	)
 	(group ""
-		(uuid "281cc032-5aba-407d-a67d-36dfd9098330")
-		(members "107dfc05-5d9c-4b52-ae93-4c4989ac0309" "73417f26-f35c-4e41-bfa8-d11fc95d58fd"
-			"e1319850-e188-4a0f-aeae-5becc3f31631" "e7300c64-82ab-4c78-975c-5fd518bbfe55"
-		)
+		(uuid "46469b11-1c55-4afa-89c9-9d31744dcc15")
+		(members "6d0a3104-8483-4dae-b45d-bf11ce57599a" "bc85fd9a-2dc7-48e5-9c8d-aea13b2ea052")
 	)
 	(group ""
-		(uuid "467c1026-168f-4d92-9aed-63d033991625")
-		(members "674cf54a-7b47-4763-9a85-47c8b6ba80f2" "88aa30bf-a09c-47d6-8f66-543a711b2950")
+		(uuid "658b08ae-60e7-42cc-ad00-90a8e2e7780c")
+		(members "e1319850-e188-4a0f-aeae-5becc3f31631" "e7300c64-82ab-4c78-975c-5fd518bbfe55")
 	)
 	(group ""
-		(uuid "4809e407-e467-424a-a81a-ba95a5a363f0")
-		(members "65142baa-0012-4ac3-84b8-cc2549c80d3a" "6d0a3104-8483-4dae-b45d-bf11ce57599a"
-			"bc85fd9a-2dc7-48e5-9c8d-aea13b2ea052" "d09174a8-bf1d-4829-83c1-5999c03ae60b"
-		)
-	)
-	(group ""
-		(uuid "674cf54a-7b47-4763-9a85-47c8b6ba80f2")
-		(members "281cc032-5aba-407d-a67d-36dfd9098330" "4809e407-e467-424a-a81a-ba95a5a363f0")
-	)
-	(group ""
-		(uuid "88aa30bf-a09c-47d6-8f66-543a711b2950")
-		(members "38064fc3-8f43-425b-a2c1-522743cf0862" "3e7d8bae-4a24-4759-a8a0-d1f29291c46c"
-			"796d6d3f-7bf0-4afc-a6ba-773a705f6e27" "9e3886ec-699a-4709-895a-0b800ce282a8"
-		)
-	)
-	(group ""
-		(uuid "38064fc3-8f43-425b-a2c1-522743cf0862")
-		(members "30f8df87-a1f7-46b9-98fe-035d254694ee" "c6301a97-7989-494d-add6-334b4ccd2ffe"
-			"ecdf6711-0909-49e7-8060-622a6367326d"
-		)
+		(uuid "f0a0eff6-a812-449a-91c9-c4551eca69eb")
+		(members "46469b11-1c55-4afa-89c9-9d31744dcc15" "658b08ae-60e7-42cc-ad00-90a8e2e7780c")
 	)
 	(embedded_fonts no)
 )
