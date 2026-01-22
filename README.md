@@ -8,11 +8,15 @@
 - Expandable with physical "Arc" modules. See below.
 - Vertically symetrical so that front panels can be flipped over to have an alternate design.
 
-## First Sketch
+## First Render of PCB
 
-Here is the first sketch that I (chleggett) made of the Spark-AE
+I (chleggett) have laid out the connectors and controls on the pcb. The biggest challenge was to figure out how to mount the Daisy Seed within the limited depth of the AE format. I found a "bottom entry" socket that allows us to use the standard headers that Daisy Audio provides.
 
-![rough sketch of the module with some written design goals from the list above.](docs/images/Spark-AE-1st-Sketch.png)
+### Top Side
+![render of the top side of the pcb](docs/images/Spark-AE-Upper-Top.png)
+
+### Bottom Side
+![render of the bottom side of the pcb](docs/images/Spark-AE-Upper-Bottom.png)
 
 ## Arcs
 A major challenge of creating a "flash it to do anything" module is that it is difficult to expose all of the pins from the platform chip. You have to make compromises based on space, desired use, physical controls, etc. A single module simply cannot do it all.
