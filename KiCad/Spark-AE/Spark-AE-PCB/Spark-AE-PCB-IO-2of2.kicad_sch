@@ -185,7 +185,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Amplifier_Operational:MCP6002-xSN"
+		(symbol "Amplifier_Operational:MCP6002-xMS"
 			(pin_names
 				(offset 0.127)
 			)
@@ -201,7 +201,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MCP6002-xSN"
+			(property "Value" "MCP6002-xMS"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -228,7 +228,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1MHz, Low-Power Op Amp, SOIC-8"
+			(property "Description" "1MHz, Low-Power Op Amp, MSOP-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -263,7 +263,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MCP6002-xSN_1_1"
+			(symbol "MCP6002-xMS_1_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -331,7 +331,7 @@
 					)
 				)
 			)
-			(symbol "MCP6002-xSN_2_1"
+			(symbol "MCP6002-xMS_2_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -399,7 +399,7 @@
 					)
 				)
 			)
-			(symbol "MCP6002-xSN_3_1"
+			(symbol "MCP6002-xMS_3_1"
 				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
@@ -1910,7 +1910,7 @@
 	)
 	(rectangle
 		(start 107.95 101.6)
-		(end 157.48 151.13)
+		(end 201.93 151.13)
 		(stroke
 			(width 0)
 			(type default)
@@ -1945,8 +1945,8 @@
 		(uuid b9580ca4-c822-414e-bd89-a21983781027)
 	)
 	(rectangle
-		(start 158.75 101.6)
-		(end 246.38 151.13)
+		(start 203.2 101.6)
+		(end 284.48 151.13)
 		(stroke
 			(width 0)
 			(type default)
@@ -2000,7 +2000,7 @@
 	)
 	(text "Digital Input"
 		(exclude_from_sim no)
-		(at 131.826 108.712 0)
+		(at 154.686 108.712 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2008,7 +2008,7 @@
 		)
 		(uuid "44a9bb4e-b2a4-4ec2-bd83-6f67dc9d0300")
 	)
-	(text "Use \"Leftover\" Op Amp\nto create 2V5 Reference"
+	(text "Use \"Extra\" Op Amp\nto create 2V5 Reference"
 		(exclude_from_sim no)
 		(at 241.3 26.67 0)
 		(effects
@@ -2020,7 +2020,7 @@
 	)
 	(text "Digital Output"
 		(exclude_from_sim no)
-		(at 197.866 104.902 0)
+		(at 245.872 106.426 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2041,13 +2041,13 @@
 		(uuid "04b025b5-88e8-4280-ae56-e838adad92dc")
 	)
 	(junction
-		(at 24.13 144.78)
+		(at 29.21 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0fef5fcf-2076-425b-b57d-cc7c1e34bb75")
 	)
 	(junction
-		(at 31.75 132.08)
+		(at 36.83 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1504f83c-aa40-461c-854b-581e2bb9d6f0")
@@ -2059,7 +2059,7 @@
 		(uuid "338a122a-c287-49e3-b323-e25edc2650fb")
 	)
 	(junction
-		(at 24.13 154.94)
+		(at 29.21 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a0fe814-9df8-4242-9242-4c3f021bfa03")
@@ -2077,13 +2077,19 @@
 		(uuid "85e685ac-39c6-436f-982a-e88a0c010a78")
 	)
 	(junction
-		(at 205.74 119.38)
+		(at 251.46 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93d477bb-be73-4e32-8c6f-4d08dd857e8e")
 	)
 	(junction
-		(at 24.13 170.18)
+		(at 254 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4a3f3c3-2b7e-4ed1-9b7e-c76d683ed113")
+	)
+	(junction
+		(at 29.21 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7893b07-2b9f-49f8-b036-559a87561efe")
@@ -2113,28 +2119,22 @@
 		(uuid "d879507d-529d-4d39-b2dd-f3046ddecfb4")
 	)
 	(junction
-		(at 31.75 144.78)
+		(at 36.83 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddbf0471-ee50-4826-94fe-4d2d7be33258")
 	)
 	(junction
-		(at 24.13 175.26)
+		(at 29.21 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e992a122-f651-4e56-af32-a02ceb145a7d")
 	)
 	(junction
-		(at 189.23 140.97)
+		(at 234.95 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3c0ca4c-7ebc-48f2-b429-fc9cfad4aa11")
-	)
-	(junction
-		(at 254 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4c24653-dc27-4c22-b9e0-6ca3d18e7b61")
 	)
 	(wire
 		(pts
@@ -2158,7 +2158,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 175.26) (xy 55.88 175.26)
+			(xy 29.21 175.26) (xy 55.88 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2175,6 +2175,16 @@
 			(type default)
 		)
 		(uuid "135d5874-2dc4-4a8f-952e-ceece83b6dac")
+	)
+	(wire
+		(pts
+			(xy 250.19 57.15) (xy 254 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16f46ca4-303d-42c8-8659-e2ccb286f5c7")
 	)
 	(wire
 		(pts
@@ -2208,7 +2218,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 170.18) (xy 55.88 170.18)
+			(xy 29.21 170.18) (xy 55.88 170.18)
 		)
 		(stroke
 			(width 0)
@@ -2228,7 +2238,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 119.38) (xy 189.23 132.08)
+			(xy 234.95 119.38) (xy 234.95 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2238,7 +2248,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 175.26) (xy 24.13 180.34)
+			(xy 29.21 175.26) (xy 29.21 180.34)
 		)
 		(stroke
 			(width 0)
@@ -2248,7 +2258,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 130.81) (xy 195.58 130.81)
+			(xy 226.06 130.81) (xy 241.3 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2278,7 +2288,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 120.65) (xy 215.9 121.92)
+			(xy 261.62 120.65) (xy 261.62 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2298,7 +2308,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 121.92) (xy 31.75 132.08)
+			(xy 36.83 121.92) (xy 36.83 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2328,7 +2338,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 154.94) (xy 55.88 154.94)
+			(xy 29.21 154.94) (xy 55.88 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2365,16 +2375,6 @@
 			(type default)
 		)
 		(uuid "5d6078a6-a8e7-4218-9c4f-ae6a1ff7e0b3")
-	)
-	(wire
-		(pts
-			(xy 250.19 57.15) (xy 254 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d8c6a43-a1fe-46aa-ae3f-d801ff0faaf2")
 	)
 	(wire
 		(pts
@@ -2428,7 +2428,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 144.78) (xy 24.13 154.94)
+			(xy 29.21 144.78) (xy 29.21 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2438,7 +2438,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 170.18) (xy 24.13 175.26)
+			(xy 29.21 170.18) (xy 29.21 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2448,7 +2448,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 130.81) (xy 223.52 130.81)
+			(xy 270.51 130.81) (xy 269.24 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2468,7 +2468,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 132.08) (xy 24.13 144.78)
+			(xy 29.21 132.08) (xy 29.21 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2478,7 +2478,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 119.38) (xy 189.23 119.38)
+			(xy 251.46 119.38) (xy 234.95 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2568,23 +2568,23 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 144.78) (xy 55.88 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2bedb1f-cc39-40cd-8c51-ad9d686db3fd")
-	)
-	(wire
-		(pts
 			(xy 254 57.15) (xy 257.81 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a821e341-2a6a-4232-8f18-24360da2a448")
+		(uuid "a1a9dbae-4c20-43f9-8dde-0ad81d5e2756")
+	)
+	(wire
+		(pts
+			(xy 36.83 144.78) (xy 55.88 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2bedb1f-cc39-40cd-8c51-ad9d686db3fd")
 	)
 	(wire
 		(pts
@@ -2608,7 +2608,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 140.97) (xy 189.23 139.7)
+			(xy 234.95 140.97) (xy 234.95 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2638,7 +2638,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 140.97) (xy 189.23 143.51)
+			(xy 234.95 140.97) (xy 234.95 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2648,7 +2648,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 116.84) (xy 209.55 119.38)
+			(xy 255.27 116.84) (xy 255.27 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2658,7 +2658,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 120.65) (xy 205.74 119.38)
+			(xy 251.46 120.65) (xy 251.46 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2668,7 +2668,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 119.38) (xy 205.74 119.38)
+			(xy 255.27 119.38) (xy 251.46 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2678,7 +2678,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 132.08) (xy 31.75 144.78)
+			(xy 36.83 132.08) (xy 36.83 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2708,7 +2708,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 140.97) (xy 189.23 140.97)
+			(xy 251.46 140.97) (xy 234.95 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2718,7 +2718,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 154.94) (xy 24.13 170.18)
+			(xy 29.21 154.94) (xy 29.21 170.18)
 		)
 		(stroke
 			(width 0)
@@ -2818,7 +2818,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 120.65) (xy 215.9 120.65)
+			(xy 256.54 120.65) (xy 261.62 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2850,7 +2850,7 @@
 	)
 	(global_label "D0_AE_OUT"
 		(shape input)
-		(at 176.53 130.81 180)
+		(at 226.06 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2860,7 +2860,7 @@
 		)
 		(uuid "6aad5b9a-6904-4983-9c03-f827379f4b8e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.2639 130.81 0)
+			(at 212.7939 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2938,7 +2938,7 @@
 	)
 	(global_label "D14_AE_IN"
 		(shape input)
-		(at 130.81 132.08 180)
+		(at 152.4 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2948,7 +2948,7 @@
 		)
 		(uuid "79ce5ca2-7ce5-4bf9-a051-76437e814412")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.0277 132.08 0)
+			(at 139.6177 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2960,7 +2960,7 @@
 	)
 	(global_label "D14"
 		(shape input)
-		(at 138.43 132.08 0)
+		(at 160.02 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2970,7 +2970,7 @@
 		)
 		(uuid "82ace361-4671-4ecd-b539-6deeab4a1681")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.1042 132.08 0)
+			(at 166.6942 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3026,7 +3026,7 @@
 	)
 	(global_label "D0"
 		(shape input)
-		(at 229.87 130.81 0)
+		(at 270.51 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3036,7 +3036,7 @@
 		)
 		(uuid "bed77122-b328-4b21-8ee0-f7560055368b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.3347 130.81 0)
+			(at 275.9747 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3166,7 +3166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c013d0c-cdab-4057-9c60-475e64e4b3b8")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR037"
 			(at 58.42 91.44 0)
 			(effects
 				(font
@@ -3216,7 +3216,7 @@
 		(instances
 			(project "Spark-AE-PCB"
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
-					(reference "#PWR047")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -3231,7 +3231,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e75e10f-d536-4ebf-8af5-2f3e7f4672bc")
-		(property "Reference" "R45"
+		(property "Reference" "R43"
 			(at 222.758 48.768 0)
 			(effects
 				(font
@@ -3247,7 +3247,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 226.314 49.276 90)
 			(effects
 				(font
@@ -3283,7 +3283,7 @@
 		(instances
 			(project "Spark-AE-PCB"
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
-					(reference "R45")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -3299,7 +3299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "203ee754-fed7-41aa-872f-b5e6c84e0ffa")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR041"
 			(at 184.15 66.04 0)
 			(effects
 				(font
@@ -3349,7 +3349,7 @@
 		(instances
 			(project "Spark-AE-PCB"
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
-					(reference "#PWR051")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -3357,7 +3357,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 134.62 132.08 90)
+		(at 156.21 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3365,8 +3365,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30cd7b88-b6b2-4a3a-a74e-1a6b2d7357be")
-		(property "Reference" "R42"
-			(at 134.62 125.73 90)
+		(property "Reference" "R41"
+			(at 156.21 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3374,15 +3374,15 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 134.62 128.27 90)
+			(at 156.21 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 134.874 131.064 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 156.464 127.254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3391,7 +3391,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 132.08 0)
+			(at 156.21 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3400,7 +3400,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 134.62 132.08 0)
+			(at 156.21 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3417,7 +3417,7 @@
 		(instances
 			(project "Spark-AE-PCB"
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
-					(reference "R42")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -3425,7 +3425,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 27.94 132.08 270)
+		(at 33.02 132.08 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3433,8 +3433,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "328e2411-111c-40fd-97d1-c6b57056634d")
-		(property "Reference" "C21"
-			(at 27.94 124.46 90)
+		(property "Reference" "C14"
+			(at 33.02 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3442,15 +3442,15 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 27.94 127 90)
+			(at 33.02 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 24.13 133.0452 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 29.21 133.0452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3459,7 +3459,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 132.08 0)
+			(at 33.02 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3468,7 +3468,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 27.94 132.08 0)
+			(at 33.02 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3485,7 +3485,7 @@
 		(instances
 			(project "Spark-AE-PCB"
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
-					(reference "C21")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -3493,7 +3493,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 189.23 143.51 0)
+		(at 234.95 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3501,8 +3501,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "396cd54a-9185-4cbf-9173-ae216658c1b6")
-		(property "Reference" "#PWR052"
-			(at 189.23 149.86 0)
+		(property "Reference" "#PWR044"
+			(at 234.95 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3511,7 +3511,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 189.23 147.32 0)
+			(at 234.95 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,7 +3519,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 143.51 0)
+			(at 234.95 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3528,7 +3528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 143.51 0)
+			(at 234.95 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3537,7 +3537,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 189.23 143.51 0)
+			(at 234.95 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3551,7 +3551,7 @@
 		(instances
 			(project "Spark-AE-PCB"
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
-					(reference "#PWR052")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -3559,7 +3559,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 31.75 121.92 0)
+		(at 36.83 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3567,8 +3567,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39ad1b2a-c67a-4789-9e4f-d8eae40ac6b1")
-		(property "Reference" "#PWR044"
-			(at 31.75 125.73 0)
+		(property "Reference" "#PWR035"
+			(at 36.83 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3577,7 +3577,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 31.75 116.84 0)
+			(at 36.83 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3585,7 +3585,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 121.92 0)
+			(at 36.83 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3594,7 +3594,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 121.92 0)
+			(at 36.83 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3603,7 +3603,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 31.75 121.92 0)
+			(at 36.83 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3617,7 +3617,7 @@
 		(instances
 			(project ""
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
-					(reference "#PWR044")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -3625,7 +3625,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 24.13 180.34 0)
+		(at 29.21 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3633,8 +3633,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42169870-ef62-4eca-9d40-4e73ba1c25b3")
-		(property "Reference" "#PWR045"
-			(at 24.13 186.69 0)
+		(property "Reference" "#PWR034"
+			(at 29.21 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3643,7 +3643,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 24.13 184.15 0)
+			(at 29.21 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3651,7 +3651,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 180.34 0)
+			(at 29.21 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3660,7 +3660,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 180.34 0)
+			(at 29.21 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3669,7 +3669,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 24.13 180.34 0)
+			(at 29.21 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3683,93 +3683,7 @@
 		(instances
 			(project ""
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:MCP6002-xSN")
-		(at 139.7 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f203604-f029-4ce5-915a-20506afa0a77")
-		(property "Reference" "U7"
-			(at 139.7 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP6002-xSN"
-			(at 139.7 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
-			(at 139.7 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1MHz, Low-Power Op Amp, SOIC-8"
-			(at 139.7 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "9cd6c85d-aa7f-4c74-88e2-7582c0b6bdab")
-		)
-		(pin "2"
-			(uuid "8a73ce84-d2e9-44bc-a847-e26af805f982")
-		)
-		(pin "1"
-			(uuid "3c52421d-7693-4f8b-824b-842449764d45")
-		)
-		(pin "5"
-			(uuid "52171fa7-2e34-42db-8d6d-8318c2e4f687")
-		)
-		(pin "6"
-			(uuid "47df52f5-5868-4562-bb98-77ef631ed09d")
-		)
-		(pin "7"
-			(uuid "4ee88f93-f183-4b8b-a1e2-2b05ff15a17b")
-		)
-		(pin "8"
-			(uuid "5078ac60-3a3d-4e80-abdf-a7f0f5d483c4")
-		)
-		(pin "4"
-			(uuid "04cf2d21-28db-4585-b478-caba3988b8b7")
-		)
-		(instances
-			(project "Spark-AE-PCB"
-				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
-					(reference "U7")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -3785,7 +3699,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5977d988-86aa-4ce5-ab63-f5550f4417ac")
-		(property "Reference" "R43"
+		(property "Reference" "R40"
 			(at 139.7 48.26 90)
 			(effects
 				(font
@@ -3801,7 +3715,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 139.954 53.594 90)
 			(effects
 				(font
@@ -3837,7 +3751,7 @@
 		(instances
 			(project "Spark-AE-PCB"
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
-					(reference "R43")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -3853,7 +3767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a95ccb5-2aa4-4c13-8abb-fc8c5b8a1660")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR038"
 			(at 74.93 40.64 0)
 			(effects
 				(font
@@ -3903,7 +3817,7 @@
 		(instances
 			(project "Spark-AE-PCB"
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
-					(reference "#PWR048")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -3919,7 +3833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "730a44a0-d828-4ef9-b665-fd6a15a0fb97")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR039"
 			(at 128.27 64.77 0)
 			(effects
 				(font
@@ -3969,7 +3883,7 @@
 		(instances
 			(project "Spark-AE-PCB"
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
-					(reference "#PWR049")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -3977,7 +3891,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 27.94 144.78 270)
+		(at 33.02 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3985,8 +3899,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73ff34b8-6feb-42db-a49c-3c4326e5c40f")
-		(property "Reference" "C22"
-			(at 27.94 137.16 90)
+		(property "Reference" "C15"
+			(at 33.02 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3994,15 +3908,15 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 27.94 139.7 90)
+			(at 33.02 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 24.13 145.7452 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 29.21 145.7452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4011,7 +3925,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 144.78 0)
+			(at 33.02 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4020,7 +3934,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 27.94 144.78 0)
+			(at 33.02 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4037,8 +3951,94 @@
 		(instances
 			(project "Spark-AE-PCB"
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
-					(reference "C22")
+					(reference "C15")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6002-xMS")
+		(at 171.45 63.5 270)
+		(mirror x)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b4c2607-b121-43e3-82a6-39f8d9e166a1")
+		(property "Reference" "U7"
+			(at 171.45 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6002-xMS"
+			(at 171.45 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "clectric-diy:Amplifier_Operational_Microchip_MCP6002T-I_MS"
+			(at 171.45 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 171.45 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, MSOP-8"
+			(at 171.45 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8c713ce3-2534-4610-9ad8-04e31587977d")
+		)
+		(pin "2"
+			(uuid "0d3403fa-f955-4b81-85b8-3bdf4b02d82e")
+		)
+		(pin "1"
+			(uuid "b9ebd26b-afd9-4a6a-b2c4-c0c0639f4454")
+		)
+		(pin "5"
+			(uuid "97514b6e-b0ae-4cb7-b397-1d7f30066cf0")
+		)
+		(pin "6"
+			(uuid "008b00e1-3178-4a57-8119-5634218cc95e")
+		)
+		(pin "7"
+			(uuid "40f5257b-c64d-477e-a515-c9ec9fa115c7")
+		)
+		(pin "8"
+			(uuid "743e594e-a42e-4731-a591-f5d87e32141e")
+		)
+		(pin "4"
+			(uuid "255d5bff-3a07-4d8e-883f-48e9888b40fa")
+		)
+		(instances
+			(project "Spark-AE-PCB"
+				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
+					(reference "U7")
+					(unit 3)
 				)
 			)
 		)
@@ -4053,7 +4053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "846c58ed-5a75-4b52-b191-6f5075ae1225")
-		(property "Reference" "C23"
+		(property "Reference" "C16"
 			(at 76.2 76.1999 0)
 			(effects
 				(font
@@ -4071,7 +4071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 72.0852 81.28 0)
 			(effects
 				(font
@@ -4107,7 +4107,7 @@
 		(instances
 			(project "Spark-AE-PCB"
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
-					(reference "C23")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -4123,7 +4123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87bf2958-6371-4b28-910d-d6d7a8e05dd3")
-		(property "Reference" "R41"
+		(property "Reference" "R39"
 			(at 55.88 76.1999 0)
 			(effects
 				(font
@@ -4141,7 +4141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 53.086 77.724 90)
 			(effects
 				(font
@@ -4177,7 +4177,7 @@
 		(instances
 			(project "Spark-AE-PCB"
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
-					(reference "R41")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -4193,7 +4193,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89d5fdf8-6814-4a73-a952-7b0548319365")
-		(property "Reference" "R40"
+		(property "Reference" "R38"
 			(at 57.15 62.23 0)
 			(effects
 				(font
@@ -4209,7 +4209,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 53.086 63.246 90)
 			(effects
 				(font
@@ -4245,7 +4245,7 @@
 		(instances
 			(project "Spark-AE-PCB"
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
-					(reference "R40")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -4253,7 +4253,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 215.9 121.92 0)
+		(at 261.62 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4261,8 +4261,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3a46c06-dc19-4602-8b5a-a87cfddc7ccb")
-		(property "Reference" "#PWR054"
-			(at 215.9 128.27 0)
+		(property "Reference" "#PWR046"
+			(at 261.62 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4271,7 +4271,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 215.9 125.73 0)
+			(at 261.62 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4279,7 +4279,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 121.92 0)
+			(at 261.62 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4288,7 +4288,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 121.92 0)
+			(at 261.62 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4297,7 +4297,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 215.9 121.92 0)
+			(at 261.62 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4311,7 +4311,7 @@
 		(instances
 			(project "Spark-AE-PCB"
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
-					(reference "#PWR054")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -4510,7 +4510,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa6a0497-05ab-4dc3-9c81-bb3f42f8cdda")
-		(property "Reference" "R46"
+		(property "Reference" "R44"
 			(at 222.758 58.928 0)
 			(effects
 				(font
@@ -4526,7 +4526,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 226.314 59.436 90)
 			(effects
 				(font
@@ -4562,7 +4562,7 @@
 		(instances
 			(project "Spark-AE-PCB"
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
-					(reference "R46")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -4578,7 +4578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa7c6009-7277-4c53-abb2-477826d52855")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR043"
 			(at 227.33 71.12 0)
 			(effects
 				(font
@@ -4628,7 +4628,7 @@
 		(instances
 			(project "Spark-AE-PCB"
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
-					(reference "#PWR056")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -4636,7 +4636,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC1G125")
-		(at 210.82 130.81 0)
+		(at 256.54 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4644,7 +4644,7 @@
 		(dnp no)
 		(uuid "aed564a9-2b6c-470f-810e-52755c8c0680")
 		(property "Reference" "U8"
-			(at 199.39 112.776 0)
+			(at 245.11 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4652,15 +4652,15 @@
 			)
 		)
 		(property "Value" "74LVC1G125"
-			(at 199.39 115.316 0)
+			(at 245.11 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 210.82 130.81 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 256.54 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4669,7 +4669,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
-			(at 210.82 130.81 0)
+			(at 256.54 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4678,7 +4678,7 @@
 			)
 		)
 		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
-			(at 210.82 130.81 0)
+			(at 256.54 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4720,7 +4720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b57eb20a-888f-4c0d-abb2-4b9ea8c2655e")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR036"
 			(at 52.07 49.53 0)
 			(effects
 				(font
@@ -4770,7 +4770,7 @@
 		(instances
 			(project "Spark-AE-PCB"
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
-					(reference "#PWR046")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -4786,7 +4786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7fb4686-4793-40c0-bde6-99f9c74f7715")
-		(property "Reference" "R44"
+		(property "Reference" "R42"
 			(at 158.75 34.29 90)
 			(effects
 				(font
@@ -4802,7 +4802,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 159.004 39.624 90)
 			(effects
 				(font
@@ -4838,7 +4838,93 @@
 		(instances
 			(project "Spark-AE-PCB"
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
-					(reference "R44")
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6002-xMS")
+		(at 139.7 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c160de43-d093-4d2e-bb09-b170840fc159")
+		(property "Reference" "U7"
+			(at 139.7 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6002-xMS"
+			(at 139.7 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "clectric-diy:Amplifier_Operational_Microchip_MCP6002T-I_MS"
+			(at 139.7 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 139.7 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, MSOP-8"
+			(at 139.7 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6c019416-e9ff-4682-8975-2dd5b2220772")
+		)
+		(pin "2"
+			(uuid "f87c6a73-c0df-4ce1-aa2e-28e785cdff10")
+		)
+		(pin "1"
+			(uuid "257afc74-622d-4946-bfad-fc8a80769e71")
+		)
+		(pin "5"
+			(uuid "97514b6e-b0ae-4cb7-b397-1d7f30066cee")
+		)
+		(pin "6"
+			(uuid "008b00e1-3178-4a57-8119-5634218cc95c")
+		)
+		(pin "7"
+			(uuid "40f5257b-c64d-477e-a515-c9ec9fa115c5")
+		)
+		(pin "8"
+			(uuid "25027208-643b-47e1-8a40-54ec5e2f72c7")
+		)
+		(pin "4"
+			(uuid "f8e77dee-3839-4362-b1c4-025ef3da5741")
+		)
+		(instances
+			(project "Spark-AE-PCB"
+				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -4853,7 +4939,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9952461-48b3-4566-a404-3135bea2b349")
-		(property "Reference" "C24"
+		(property "Reference" "C17"
 			(at 171.45 70.104 90)
 			(effects
 				(font
@@ -4869,7 +4955,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 175.26 75.2348 0)
 			(effects
 				(font
@@ -4905,7 +4991,7 @@
 		(instances
 			(project "Spark-AE-PCB"
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
-					(reference "C24")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -4913,15 +4999,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 189.23 135.89 180)
+		(at 234.95 135.89 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d43bf988-35c0-4a88-bfe3-35ca23a93a08")
-		(property "Reference" "C25"
-			(at 183.134 134.62 0)
+		(property "Reference" "C18"
+			(at 228.854 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4929,15 +5015,15 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 183.134 137.16 0)
+			(at 228.854 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 188.2648 132.08 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 233.9848 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4946,7 +5032,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 135.89 0)
+			(at 234.95 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4955,7 +5041,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 189.23 135.89 0)
+			(at 234.95 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4972,7 +5058,7 @@
 		(instances
 			(project "Spark-AE-PCB"
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
-					(reference "C25")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -4988,7 +5074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d93f4190-b412-4b80-905c-cef6384e927c")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 62.23 33.02 0)
 			(effects
 				(font
@@ -5044,7 +5130,7 @@
 		(instances
 			(project "Spark-AE-PCB"
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5060,7 +5146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da7cc378-7295-4c4e-be4d-fd8c5d4657c3")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR042"
 			(at 227.33 48.26 0)
 			(effects
 				(font
@@ -5110,7 +5196,7 @@
 		(instances
 			(project "Spark-AE-PCB"
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
-					(reference "#PWR055")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -5126,7 +5212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2cfa654-47e3-40d4-99c7-650cc623c239")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR040"
 			(at 160.02 86.36 0)
 			(effects
 				(font
@@ -5176,15 +5262,101 @@
 		(instances
 			(project "Spark-AE-PCB"
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
-					(reference "#PWR050")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:MCP6002-xMS")
+		(at 242.57 57.15 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed373a6d-345e-4ae3-99a7-6359c9e78c71")
+		(property "Reference" "U7"
+			(at 242.57 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6002-xMS"
+			(at 242.57 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "clectric-diy:Amplifier_Operational_Microchip_MCP6002T-I_MS"
+			(at 242.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 242.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, MSOP-8"
+			(at 242.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8c713ce3-2534-4610-9ad8-04e31587977c")
+		)
+		(pin "2"
+			(uuid "0d3403fa-f955-4b81-85b8-3bdf4b02d82d")
+		)
+		(pin "1"
+			(uuid "b9ebd26b-afd9-4a6a-b2c4-c0c0639f4453")
+		)
+		(pin "5"
+			(uuid "7bfa2e9a-a2a4-40e8-8526-8e5765af38d3")
+		)
+		(pin "6"
+			(uuid "6cc17832-e1b4-4791-ae0c-4deb83204a02")
+		)
+		(pin "7"
+			(uuid "adf678d1-51e1-4096-af65-b14e1f7eed8d")
+		)
+		(pin "8"
+			(uuid "25027208-643b-47e1-8a40-54ec5e2f72c8")
+		)
+		(pin "4"
+			(uuid "f8e77dee-3839-4362-b1c4-025ef3da5742")
+		)
+		(instances
+			(project "Spark-AE-PCB"
+				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
+					(reference "U7")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
-		(at 209.55 116.84 0)
+		(at 255.27 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5192,8 +5364,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef784bc4-6230-4499-b7e8-0be1903e525d")
-		(property "Reference" "#PWR053"
-			(at 209.55 120.65 0)
+		(property "Reference" "#PWR045"
+			(at 255.27 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5202,7 +5374,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 209.55 111.76 0)
+			(at 255.27 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5210,7 +5382,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 116.84 0)
+			(at 255.27 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5219,7 +5391,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 116.84 0)
+			(at 255.27 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5228,7 +5400,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 209.55 116.84 0)
+			(at 255.27 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5242,180 +5414,8 @@
 		(instances
 			(project "Spark-AE-PCB"
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
-					(reference "#PWR053")
+					(reference "#PWR045")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:MCP6002-xSN")
-		(at 242.57 57.15 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fca42f68-94e0-4ad0-9706-fb2ff10d0427")
-		(property "Reference" "U7"
-			(at 242.57 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP6002-xSN"
-			(at 242.57 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
-			(at 242.57 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1MHz, Low-Power Op Amp, SOIC-8"
-			(at 242.57 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "1748a129-70bd-4506-b446-4f6e7b62dbb3")
-		)
-		(pin "2"
-			(uuid "f49738a4-d89f-43f0-bf34-0c82e3e20c51")
-		)
-		(pin "1"
-			(uuid "cc777690-cfc1-4ca7-9180-aff892fd6ea6")
-		)
-		(pin "5"
-			(uuid "52171fa7-2e34-42db-8d6d-8318c2e4f688")
-		)
-		(pin "6"
-			(uuid "47df52f5-5868-4562-bb98-77ef631ed09e")
-		)
-		(pin "7"
-			(uuid "4ee88f93-f183-4b8b-a1e2-2b05ff15a17c")
-		)
-		(pin "8"
-			(uuid "5078ac60-3a3d-4e80-abdf-a7f0f5d483c5")
-		)
-		(pin "4"
-			(uuid "04cf2d21-28db-4585-b478-caba3988b8b8")
-		)
-		(instances
-			(project "Spark-AE-PCB"
-				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
-					(reference "U7")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:MCP6002-xSN")
-		(at 171.45 63.5 270)
-		(mirror x)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fd76497c-f874-4f81-ac81-4a7be5db4a31")
-		(property "Reference" "U7"
-			(at 171.45 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP6002-xSN"
-			(at 171.45 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
-			(at 171.45 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1MHz, Low-Power Op Amp, SOIC-8"
-			(at 171.45 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "9cd6c85d-aa7f-4c74-88e2-7582c0b6bdac")
-		)
-		(pin "2"
-			(uuid "8a73ce84-d2e9-44bc-a847-e26af805f983")
-		)
-		(pin "1"
-			(uuid "3c52421d-7693-4f8b-824b-842449764d46")
-		)
-		(pin "5"
-			(uuid "52171fa7-2e34-42db-8d6d-8318c2e4f689")
-		)
-		(pin "6"
-			(uuid "47df52f5-5868-4562-bb98-77ef631ed09f")
-		)
-		(pin "7"
-			(uuid "4ee88f93-f183-4b8b-a1e2-2b05ff15a17d")
-		)
-		(pin "8"
-			(uuid "5078ac60-3a3d-4e80-abdf-a7f0f5d483c6")
-		)
-		(pin "4"
-			(uuid "04cf2d21-28db-4585-b478-caba3988b8b9")
-		)
-		(instances
-			(project "Spark-AE-PCB"
-				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/2bacbfe8-7c11-4ce3-9655-a88f10512e83"
-					(reference "U7")
-					(unit 3)
 				)
 			)
 		)
