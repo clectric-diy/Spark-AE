@@ -12,6 +12,78 @@
 		(comment 1 "Charles H. Leggett")
 	)
 	(lib_symbols)
+	(text "Input / Output\n(2 of 2)"
+		(exclude_from_sim no)
+		(at 148.844 119.634 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "464b85de-15c1-4276-80be-9099df86ecbc")
+	)
+	(text "Digital\nExpansion"
+		(exclude_from_sim no)
+		(at 239.014 119.126 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "7f5ab7e0-0eb9-42cb-aedd-408d9332fa36")
+	)
+	(text "User Interface"
+		(exclude_from_sim no)
+		(at 239.522 61.468 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "ca7d44ce-1515-4b99-9a6a-a32138d23779")
+	)
+	(text "Input / Output\n(1 of 2)"
+		(exclude_from_sim no)
+		(at 61.722 118.11 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "d936beda-2dfd-4451-a7b0-e026fba6d424")
+	)
+	(text "Power\nRegulation\n"
+		(exclude_from_sim no)
+		(at 149.86 59.69 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "f490311e-8ab9-423d-936f-c3f0b68bb26e")
+	)
+	(text "Electrosmith\nDaisy Seed"
+		(exclude_from_sim no)
+		(at 61.214 58.928 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "fb2fbba3-4df4-4e1c-82ee-d6734ab83cf6")
+	)
 	(sheet
 		(at 199.39 95.25)
 		(size 80.01 49.53)
@@ -154,7 +226,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "35e50e3b-d537-404d-a9f5-3505598df5ac")
-		(property "Sheetname" "Power & Regulation"
+		(property "Sheetname" "Power Regulation"
 			(at 109.22 34.8484 0)
 			(effects
 				(font
@@ -238,7 +310,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "eec00792-c732-4f58-b451-a0be78741aa3")
-		(property "Sheetname" "Daisy Seed & Mount"
+		(property "Sheetname" "Daisy Seed & Mezzanine"
 			(at 20.32 34.8484 0)
 			(effects
 				(font
