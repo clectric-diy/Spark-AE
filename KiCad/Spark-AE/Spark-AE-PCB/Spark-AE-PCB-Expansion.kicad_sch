@@ -2469,7 +2469,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0103d07f-2298-4677-8e78-43b921e185dc")
-		(property "Reference" "C52"
+		(property "Reference" "C50"
 			(at 109.982 115.316 90)
 			(effects
 				(font
@@ -2523,7 +2523,7 @@
 		(instances
 			(project "Spark-AE-PCB"
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/068f8c39-4a2c-47d3-9aa1-f68922ad9282"
-					(reference "C52")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -2737,7 +2737,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c4715cf-1cae-44e5-9b59-6ce91e8dc4e7")
-		(property "Reference" "C56"
+		(property "Reference" "C54"
 			(at 233.172 103.886 90)
 			(effects
 				(font
@@ -2791,7 +2791,7 @@
 		(instances
 			(project "Spark-AE-PCB"
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/068f8c39-4a2c-47d3-9aa1-f68922ad9282"
-					(reference "C56")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -2874,7 +2874,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3cd91e58-4c98-4ffb-892a-ff2667d6a7d5")
-		(property "Reference" "C54"
+		(property "Reference" "C52"
 			(at 150.622 115.316 90)
 			(effects
 				(font
@@ -2928,7 +2928,7 @@
 		(instances
 			(project "Spark-AE-PCB"
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/068f8c39-4a2c-47d3-9aa1-f68922ad9282"
-					(reference "C54")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -3174,7 +3174,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a72a860-8b53-4ffc-96ab-564c15c99962")
-		(property "Reference" "C53"
+		(property "Reference" "C51"
 			(at 146.558 105.156 90)
 			(effects
 				(font
@@ -3228,7 +3228,7 @@
 		(instances
 			(project ""
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/068f8c39-4a2c-47d3-9aa1-f68922ad9282"
-					(reference "C53")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -3600,7 +3600,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae49cf13-3f16-484d-8ee1-65d2ad761fc4")
-		(property "Reference" "C51"
+		(property "Reference" "C49"
 			(at 105.918 105.156 90)
 			(effects
 				(font
@@ -3654,7 +3654,7 @@
 		(instances
 			(project "Spark-AE-PCB"
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/068f8c39-4a2c-47d3-9aa1-f68922ad9282"
-					(reference "C51")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -3670,7 +3670,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b72a36ef-a2c5-45d6-8794-56457f232e78")
-		(property "Reference" "C55"
+		(property "Reference" "C53"
 			(at 229.108 93.726 90)
 			(effects
 				(font
@@ -3724,7 +3724,7 @@
 		(instances
 			(project "Spark-AE-PCB"
 				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe/068f8c39-4a2c-47d3-9aa1-f68922ad9282"
-					(reference "C55")
+					(reference "C53")
 					(unit 1)
 				)
 			)
