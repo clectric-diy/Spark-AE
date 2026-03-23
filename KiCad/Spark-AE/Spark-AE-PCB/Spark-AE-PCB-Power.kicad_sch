@@ -2836,7 +2836,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "97f76a67-3d06-4d9b-a201-32ba3c9d1aad")
+			(uuid "97f76a67-3d06-4d9b-a201-32ba3c9d1aae")
 		)
 		(instances
 			(project ""

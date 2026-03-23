@@ -10202,7 +10202,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7a52e20e-729f-48ed-9a6e-41c42348e031")
 		(property "Reference" "SW1"
 			(at 76.2 34.29 0)
@@ -10698,6 +10697,7 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 162.56 113.03 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10705,7 +10705,7 @@
 		(dnp no)
 		(uuid "89081689-038e-4e12-88c0-6dd1737aa9c8")
 		(property "Reference" "C11"
-			(at 165.608 112.268 0)
+			(at 159.512 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10714,7 +10714,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 165.608 114.808 0)
+			(at 159.512 114.808 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10723,7 +10723,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 163.5252 116.84 0)
+			(at 161.5948 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
