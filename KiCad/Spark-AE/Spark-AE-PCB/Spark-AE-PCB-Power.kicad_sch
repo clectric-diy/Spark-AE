@@ -2175,7 +2175,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead"
+		(property "Value" "GZ2012D560TF"
 			(at 92.7608 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)

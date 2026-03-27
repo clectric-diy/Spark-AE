@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.100023,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.9,
+          "height": 1.1,
+          "width": 1.1
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -105,8 +105,8 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "ignore",
         "starved_thermal": "ignore",
@@ -726,7 +726,7 @@
         "uuid": "b249adcd-2848-4e56-9615-c4f1b6083abe"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U7",
     "variants": []
   },
   "sheets": [
