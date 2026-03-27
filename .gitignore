@@ -5,3 +5,4 @@
 **/*.lck
 **/#auto_saved_files#
 **/*.kicad_sch-bak
+**/fabrication-toolkit-options.json
