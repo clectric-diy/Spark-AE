@@ -6,17 +6,13 @@
 - Fully compatable with firmare written for the [Daisy Pod](https://daisy.audio/product/Daisy-Pod/)
 - Open hardware: schematics, PCB, and front panel files included
 - Expandable with physical "Arc" modules. See below.
-- Vertically symetrical so that front panels can be flipped over to have an alternate design.
+- ~~Vertically symetrical so that front panels can be flipped over to have an alternate design.~~ I just couldn't make it work.
 
-## First Render of PCB
+## Mk0 Protype
 
-I (chleggett) have laid out the connectors and controls on the pcb. The biggest challenge was to figure out how to mount the Daisy Seed within the limited depth of the AE format. I found a "bottom entry" socket that allows us to use the standard headers that Daisy Audio provides.
+I (chleggett) have sent the Mk0 Prototype out for manufacturing. The vapor is starting to condense.
 
-### Top Side
-![render of the top side of the pcb](docs/images/Spark-AE-Upper-Top.png)
-
-### Bottom Side
-![render of the bottom side of the pcb](docs/images/Spark-AE-Upper-Bottom.png)
+![render of the Mk0 Prototype](docs/images/Spark-AE-PCB_Mk_0.png)
 
 ## Arcs
 A major challenge of creating a "flash it to do anything" module is that it is difficult to expose all of the pins from the platform chip. You have to make compromises based on space, desired use, physical controls, etc. A single module simply cannot do it all.
