@@ -11,8 +11,8 @@
 ## Discussions
 Announcements, Q&As, and other discussions for this project should be posted to the [clectric.diy Discussions board](https://github.com/orgs/clectric-diy/discussions).
 
-## Mk0 Protype
-I (chleggett) have sent the Mk0 Prototype out for manufacturing. The vapor is starting to condense.
+## Mk0.0 Protype
+I (chleggett) have sent the Mk0.0 Prototype out for manufacturing. The vapor is starting to condense.
 
 ![render of the Mk0 Prototype](images/Spark-AE-PCB_Mk_0.0.png)
 
