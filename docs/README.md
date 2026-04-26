@@ -1,4 +1,4 @@
-s## Design Goals
+## Design Goals
 - Designed for experimentation and community hacking
 - Built for the [AE Modular format](https://wiki.aemodular.com/#/diy/aemodular-technical-guide.md)
 - Supports firmware from the [FLUX](https://github.com/clectric-diy/FLUX) collection
