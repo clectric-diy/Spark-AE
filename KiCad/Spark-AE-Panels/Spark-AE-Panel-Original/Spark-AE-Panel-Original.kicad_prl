@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 25,
+    "active_layer": 5,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -61,7 +61,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Spark-AE-Panel.kicad_prl",
+    "filename": "Spark-AE-Panel-Original.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -94,18 +94,18 @@
       11
     ],
     "col_widths": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      63,
+      64,
+      86,
+      71,
+      76,
+      89,
+      77,
+      74,
+      45,
+      43,
+      49,
+      51
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
