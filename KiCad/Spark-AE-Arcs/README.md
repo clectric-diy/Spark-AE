@@ -1,0 +1,1 @@
+Arcs are expansion submodules that connect to the primary Spark module via SPI or I2C.
