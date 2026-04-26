@@ -12,7 +12,7 @@
 
 I (chleggett) have sent the Mk0 Prototype out for manufacturing. The vapor is starting to condense.
 
-![render of the Mk0 Prototype](docs/images/Spark-AE-PCB_Mk_0.png)
+![render of the Mk0 Prototype](docs/images/Spark-AE-PCB_Mk_0.0.png)
 
 ## Arcs
 A major challenge of creating a "flash it to do anything" module is that it is difficult to expose all of the pins from the platform chip. You have to make compromises based on space, desired use, physical controls, etc. A single module simply cannot do it all.
