@@ -8,9 +8,9 @@
 - Expandable with physical "Arc" modules. See below.
 - ~~Vertically symetrical so that front panels can be flipped over to have an alternate design.~~ I just couldn't make it work.
 
-## Mk0 Protype
+## Mk0.0 Protype
 
-I (chleggett) have sent the Mk0 Prototype out for manufacturing. The vapor is starting to condense.
+I (chleggett) have sent the Mk0.0 Prototype out for manufacturing. The vapor is starting to condense.
 
 ![render of the Mk0 Prototype](docs/images/Spark-AE-PCB_Mk_0.0.png)
 
